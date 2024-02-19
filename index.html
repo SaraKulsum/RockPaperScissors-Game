@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RockPaperScissors</title>
+    <link rel = "stylesheet" href ="style.css"></link>
+</head>
+<body>
+    
+    <h1>Rock, paper, Scissors</h1>
+<p id ="msg">PRESS Play to begin the fight!</p>
+<div id = "play-button" style = "text-align: center;">
+<button type = "button" id = "play" style = "margin : 0 auto ;">Play</button>
+</div>
+<div id = "ground">
+
+<div class = "playground" >
+    <div><strong>Computer</strong></div>
+<div id="compimg">
+    <img src ="paper.png" alt="paper" id="paperimg" height="150px" width="150px">
+</div>
+</div>
+
+<div class = "playground">
+    <div><strong>User</strong></div>
+    <div id="userImg">
+      <img src ="rock.png" alt="rock" id="rockimg" height="150px" width="150px">
+    </div>
+</div>
+
+<div class ="playground" id="ScoreBoard" >
+     <div class ="name-scr">USER:
+     <P id="userScore">
+       0
+     </P></div>
+     <DIV class = "name-scr">COMP:
+     <P id="compScore">
+       0
+     </P></DIV>
+</div>
+</div>
+<div id = "victoryContainer">
+<p id = "victory"></p>
+</div>
+<div id = "buttonContainer" style ="text-align: center; margin-top: 30px;">
+   
+<div id = "replayContainer">
+    
+</div>
+<div id = "choice">
+    <button type="button" class ="button" value = 0 style="display: none;">rock</button>
+    <button type="button" class ="button" value = 1 style="display: none;">paper</button>
+    <button type="button" class ="button" value = 2 style="display: none;">scissor</button>
+</div>
+
+</div>
+<script src ="index.js"></script>
+</body>
+</html>
